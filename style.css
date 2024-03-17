@@ -88,5 +88,9 @@ body{
     header a {
         font-size: auto;
     }
+    body{
+        background-size: cover;
+        background-position: center;
+    }
     
 }
