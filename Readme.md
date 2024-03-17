@@ -1,0 +1,1 @@
+Esse site foi criado para comunidade gamer com o intuito de atualizar com informações em alta
