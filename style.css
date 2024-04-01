@@ -59,7 +59,7 @@ body{
     justify-content: flex-start;
     margin-top: 10px;
     width: 100px;   
-}input{
+}.bnt{
     cursor: pointer;
     border-radius: 10px;
     background-color: rgb(0, 255, 0);
@@ -71,11 +71,11 @@ body{
     font-weight: bolder;
     color: white;
     box-shadow: 0px 1px 50px rgb(43, 255, 0);  
-}input:hover{
+}.bnt:hover{
     background-color: green;
     transition: 300ms;
     transform:translate(10px)
-}footer{ color: rgb(0, 0, 0);text-align: center;}
+}footer{ color: rgb(255, 255, 255);text-align: center;}
 @media screen and (max-width:1020px){
     .container{
         min-width:10px;
@@ -94,3 +94,61 @@ body{
     }
     
 }
+.container2{
+    background-color: white;
+    margin: 40px;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 10px 10px 30px black;
+}
+.cad{
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+.cadas{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    background-color: rgb(157, 157, 157);
+    width: auto;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow: 3px 3px 10px black;
+}
+    
+.email::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+.senha{
+    background-color: rgb(157, 157, 157);
+    width: auto;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow: 3px 3px 10px black;
+}
+.senha::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+hr{
+    
+    width: 500px;
+    margin: auto;
+}
+
